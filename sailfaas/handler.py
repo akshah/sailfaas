@@ -1,5 +1,5 @@
 def make_response(body, status):
-    return {"statusCode": status, "body": body }
+    return {"statusCode": status, "body": body, "headers": {} }
 
 def handle(request, context):
     """handle a request to the function
