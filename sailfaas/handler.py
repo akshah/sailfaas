@@ -1,5 +1,5 @@
 def make_response(body, status):
-    return {"statusCode": status, "body": body.decode("utf-8") }
+    return {"statusCode": status, "body": body }
 
 def handle(request, context):
     """handle a request to the function
